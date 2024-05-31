@@ -46,6 +46,18 @@
 
     <attributes>
         <!-- Hide some core attributes -->
+        <attribute>
+            <name>multiple</name>
+            <category>Display</category>
+            <inputtype>buttongroup</inputtype>
+            <options>
+                <true>True</true>
+                <false>False</false>
+            </options>
+            <default>false</default>
+            <help>Testing</help>
+            <caption>Allow multiple</caption>
+        </attribute>
 		<attribute>
             <name>category_separator</name>
             <category>Display</category>
